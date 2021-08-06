@@ -10,9 +10,24 @@
   </head>
   <body>
     <div id='main-container'>
-    <h1>Weather App</h1>
-    <div id="cityName"></div>
-    <div id="cityTemp"></div>
+      <header>
+        <input id='search' type="search" placeholder="Search by city, country"></input>
+      </header>
+      
+      <div class="row">
+        <div class = "info">
+          <div id="cityName"></div>
+          <div id="cityTemp"></div>
+          <div id="main"></div>
+
+        </div>
+        <div class = "details">
+          <p class="feels"></p>
+          <p class="wind"></p>
+          <p class="humidity"></p>
+        </div>
+      </div>
+    
     <script src="main.js"></script>
     </div>
   </body>
