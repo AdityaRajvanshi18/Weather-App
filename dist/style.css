@@ -1,13 +1,12 @@
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
-}
-html{
-    
+    color: white
 }
 
 p{
    margin: 0; 
+   font-weight: 500;
 }
 
 header{
@@ -20,7 +19,7 @@ header{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background-image: url('/dist/imgs/cloudy.jpg');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,6 +30,7 @@ header{
     top: 30%;
     width: 90%;
     margin-left: 10%;
+    text-shadow: 2px 2px 2px black;
 }
 
 .details{
@@ -39,7 +39,7 @@ header{
     font-size: 1rem;
     letter-spacing: 0.1rem;
     position: absolute;
-    border-left: 0.2rem solid black;
+    border-left: 0.2rem solid white;
     top: 30%;
     left: 8.5rem;
     height: 5rem;
@@ -50,7 +50,7 @@ header{
 #cityName{
     font-size: 2rem;
     font-weight: 900;
-    color: black;
+    color:white;
 }
 
 #main{
@@ -72,27 +72,15 @@ input{
     justify-items: center;
     align-items: center;
 }
-.fade-in1 {
-    animation: fadeIn1 0.5s;
-}
 
 .fade-in2 {
     animation: fadeIn2 0.8s;
 }
 
-@keyframes fadeIn1 {
-    0% {
-        opacity: 0.1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 @keyframes fadeIn2 {
     0% {
         opacity: 0.1;
-        /* transform: scale(0.9, 0.9); */
+        transform: scale(0.95, 0.95);
     }
     100% {
         opacity: 1;
