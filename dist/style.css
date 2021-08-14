@@ -1,88 +1,88 @@
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    color: white
+body {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	margin: 0;
+	color: white;
 }
 
-p{
-   margin: 0; 
-   font-weight: 500;
+p {
+	margin: 0;
+	font-weight: 500;
 }
 
-header{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 1rem;
+header {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 1rem;
 }
 
-#main-container{
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#main-container {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.row{   
-    position: absolute;
-    top: 30%;
-    width: 90%;
-    margin-left: 10%;
-    text-shadow: 2px 2px 2px black;
+.row {
+	position: absolute;
+	top: 30%;
+	width: 90%;
+	margin-left: 10%;
+	text-shadow: 2px 2px 2px black;
 }
 
-.details{
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    position: absolute;
-    border-left: 0.2rem solid white;
-    top: 30%;
-    left: 8.5rem;
-    height: 5rem;
-    padding-left: 1rem;
-    justify-content: space-between;
+.details {
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	position: absolute;
+	border-left: 0.2rem solid white;
+	top: 33%;
+	left: 10rem;
+	height: 5rem;
+	padding-left: 1rem;
+	justify-content: space-between;
 }
 
-#cityName{
-    font-size: 2rem;
-    font-weight: 900;
-    color:white;
+#cityName {
+	font-size: 2rem;
+	font-weight: 900;
+	color: white;
 }
 
-#main{
-    font-size: 1.5rem;
+#main {
+	font-size: 1.5rem;
 }
 
-#cityTemp{
-    font-size: 3rem;
-    font-weight: 500;
+#cityTemp {
+	font-size: 3rem;
+	font-weight: 500;
 }
 
-input{
-    opacity: 0.5;
+input {
+	opacity: 0.5;
 }
 
-.project-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-items: center;
-    align-items: center;
+.project-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	justify-items: center;
+	align-items: center;
 }
 
 .fade-in2 {
-    animation: fadeIn2 0.8s;
+	animation: fadeIn2 0.8s;
 }
 
 @keyframes fadeIn2 {
-    0% {
-        opacity: 0.1;
-        transform: scale(0.95, 0.95);
-    }
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0.1;
+		transform: scale(0.95, 0.95);
+	}
+	100% {
+		opacity: 1;
+	}
 }
