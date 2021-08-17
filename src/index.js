@@ -40,22 +40,22 @@ function displayData(data){
 
     switch (firstDigit){
         case "2":
-            background.style.backgroundImage = "url('/dist/imgs/thunderstorm.jpg')";
+            background.style.backgroundImage = "url('imgs/thunderstorm.jpg')";
             break;
         case "3":
-            background.style.backgroundImage = "url('/dist/imgs/drizzle.jpg')";
+            background.style.backgroundImage = "url('imgs/drizzle.jpg')";
             break;
         case "5":
-            background.style.backgroundImage = "url('/dist/imgs/rain.jpg')";
+            background.style.backgroundImage = "url('imgs/rain.jpg')";
             break;
         case "6":
-            background.style.backgroundImage = "url('/dist/imgs/snow.jpg')";
+            background.style.backgroundImage = "url('imgs/snow.jpg')";
             break;
         case "7":
-            background.style.backgroundImage = "url('/dist/imgs/fog.jpg')";
+            background.style.backgroundImage = "url('imgs/fog.jpg')";
             break;
         default:
-            background.style.backgroundImage = "url('/dist/imgs/cloudy.jpg')";
+            background.style.backgroundImage = "url('imgs/cloudy.jpg')";
             
     }
 
